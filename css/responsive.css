@@ -1,0 +1,912 @@
+
+/* ex small */
+
+@media  (max-width: 575.98px) { 
+
+/* navbar */
+
+.main_menu .logo {
+	width: 53px;
+}
+
+.main_menu ul {
+	gap: 30px ;
+	display: flex;
+	align-items: center;
+}
+
+.nav_item{
+    margin-top: 20px ;
+}
+
+
+.main_menu .navbar_button {
+
+	justify-content: center;
+	margin-top: 30px;
+}
+
+
+/* banner */
+
+#banner .banner_images {
+	width: 100% ;
+	top: -51px ;
+	right: 8px ;
+}
+
+
+#banner h1 {
+	width: 100% !important;
+	font-size: 49px !important;
+	margin-top: 299px !important;
+}
+
+#app {
+	font-size: 44px !important;
+
+}
+
+#banner .line {
+	width: 100% !important;
+	margin-top: 45px !important;
+	margin-bottom: -74px !important;
+}
+
+#banner .text25 {
+	width: 100% !important;
+	font-size: 17px !important;
+	margin-bottom: 35px !important;
+	margin-top: 128px !important;
+}
+
+button.learn-more .button-text {
+	top: -15px !important;
+	right: -34px !important;
+
+}
+
+
+#banner .round {
+
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.play_button_circle {
+
+	top: 2px
+    !important;
+	left: -4px !important;
+}
+
+
+/* counter */
+
+.counter_item{
+    width: 100% !important;
+    margin-top: 40px !important;
+}
+
+
+/* product */
+
+.common_head h2 {
+	font-size: 27px !important;
+	margin-top: -46px !important;
+}
+
+
+.common_head p {
+	font-size: 11px !important;
+	margin-top: 20px !important;
+}
+
+
+
+#product .product_img {
+	width: 100% !important;
+	margin-top: 10px !important;
+}
+
+.product_sign {
+	gap: 4px !important;
+	margin-top: 0 !important;
+	margin-left: 0 !important;
+}
+
+#product .product_sign p {
+	width: 100% !important;
+	font-size: 12px !important;
+}
+
+.lightweight {
+	margin-top: 20px !important;
+}
+
+
+/* effcency */
+
+#Efficiency .Efficiency_img {
+	width: 100% !important;
+	margin-top: 30px !important;
+}
+
+/* multiple */
+
+#multiple {
+	padding-top: 85px !important;
+
+}
+
+#multiple .golf_text h2 {
+	font-size: 25px !important;
+	margin-top: 59px !important;
+}
+
+
+.scooter_img {
+	top: 50px !important;
+}
+
+
+.side_img {
+
+	margin-top: 220px !important;
+}
+
+.shoping_text {
+	margin-top: 40px !important;
+	margin-left: 0 !important;
+}
+
+.shoping_text h2 {
+	width: 100% !important;
+	font-size: 27px !important;
+}
+
+
+.text {
+	width: 90% !important;
+	margin-top: 35px !important;
+}
+
+
+.text h2 {
+	font-size: 10px !important;
+	padding: 14px 63px ;
+}
+
+    #gallery .galley_img img {
+        width: 100% ;
+        height: 200px ;
+    }
+
+/* gallery */
+
+
+#gallery .galley_img {
+	margin-top: 30px;
+}
+
+
+#gallery .gallery_button .gallery_button1 {
+	width: 90%;
+
+}
+
+
+#gallery .gallery_button .gallery_button1 h3 {
+	font-size: 28px;
+	padding: 28px;
+	padding-left: 25px;
+}
+
+
+#gallery .gallery_button .gallery_button2 {
+	width: 90%;
+
+}
+
+#gallery .gallery_button .gallery_button2 h3 {
+	font-size: 22px;
+	padding: 32px;
+	padding-left: 25px;
+}
+
+
+
+#gallery .gallery_button .gallery_button3 {
+	width: 90%;
+
+}
+
+
+
+#gallery .gallery_button .gallery_button3 h3 {
+	font-size: 19px;
+	padding: 33px;
+	padding-left: 22px;
+}
+
+
+#gallery .left_img img {
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+
+#gallery .left_img img:nth-child(2) {
+	margin-top: 30px;
+}
+
+
+
+/* colors */
+
+#colors {
+	padding-top: 62px;
+}
+
+#colors .colors_slider {
+	margin-top: 20px;
+
+}
+
+.navimg_slider{
+    display: none;
+}
+
+/* testimonals */
+
+#Testimonials {
+	margin-top: 46px;
+
+}
+
+.myslider{
+    margin-top: -37px;
+}
+
+.prearrow {
+
+	left: 0;
+
+}
+.nextarrow {
+
+	left: 44px;
+}
+
+
+.myslider_item {
+	width: 100%;
+
+}
+
+.myslider_item2 {
+	width: 100%;
+
+}
+
+.myslider_item3 {
+	width: 100%;
+
+}
+
+
+/* subcribe */
+
+#Subscribe {
+	padding-top: 86px;
+
+}
+.common_head h2 {
+	font-size: 25px !important;
+
+}
+
+
+.input_email {
+	flex-wrap: wrap;
+}
+
+
+.input_email input {
+	width: 90%;
+	padding: 13px 66px 26px 38px;
+
+}
+
+.input_email button {
+	width: 90%;
+	padding: 10px 61px 7px 48px;
+}
+
+
+/* footer */
+
+.footer_float {
+
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+	flex-direction: column;
+	margin-top: 119px;
+}
+
+.icon {
+
+	justify-content: center;
+}
+
+
+.about_h4 {
+
+	margin-bottom: 20px;
+
+}
+
+.About_li a {
+	display: flex;
+	justify-content: center;
+}
+
+.Resources_h4 {
+	margin-bottom: 20px;
+
+}
+
+.Resources_li a {
+
+	display: flex;
+	justify-content: center;
+}
+
+
+.Legals_h4 {
+	margin-bottom: 20px;
+	display: flex;
+  justify-content: center;
+
+}
+
+.Legals_li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+}
+
+/* small */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* navabar */
+
+.main_menu .logo {
+	width: 51px;
+}
+
+.main_menu ul li a {
+
+	margin-top: 20px;
+
+}
+
+.main_menu ul {
+	gap: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.nav_item{
+    margin-top: 20px ;
+}
+
+.main_menu .navbar_button {
+
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+
+
+/* banner */
+
+#banner .banner_images {
+	width: 100%;
+	top: -43px;
+
+}
+
+#banner h1 {
+	width: 100%;
+	font-size: 81px;
+	margin-top: 537px;
+}
+
+#app {
+	font-size: 77px;
+
+}
+
+
+#banner .line {
+	margin-top: 30px;
+
+}
+
+#banner .text25 {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+
+/* counter */
+.counter_single_box {
+	width: 100%;
+	margin-top: 40px;
+
+
+}
+
+
+/* product */
+
+#product {
+	padding-top: 78px;
+}
+
+
+#product .product_img {
+	width: 100%;
+
+}
+
+.lightweight {
+	margin-top: 20px;
+}
+.product_sign {
+
+	margin-top: 0;
+	margin-left: 0;
+}
+
+
+/* effcency */
+#Efficiency {
+	margin-top: 81px;
+}
+
+.common_head h2 {
+	font-size: 30px;
+
+}
+
+.common_head p {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+
+
+#Efficiency .Efficiency_img {
+	width: 100%;
+	margin-top: 49px;
+}
+
+
+
+/* multiple */
+
+#multiple {
+	padding-top: 63px;
+
+}
+
+#multiple .golf_text h2 {
+	font-size: 30px;
+	margin-top: 500px;
+
+}
+
+
+.scooter_img {
+	position: absolute;
+	top: -820px;
+	left: 0;
+}
+
+.side_img {
+
+	margin-top: 79px;
+
+}
+
+.shoping_text h2 {
+	width: 100%;
+	font-size: 30px;
+
+}
+
+.shoping_text {
+	margin-top: 50px;
+	margin-left: 0;
+}
+
+
+/* gallery */
+
+#gallery {
+	margin-top: 51px;
+}
+
+#gallery .galley_img img {
+	width: 100%;
+	height: 100%;
+}
+#gallery .galley_img {
+	margin-top: 30px;
+}
+
+
+#gallery .gallery_button .gallery_button1 {
+	width: 100%;
+
+}
+
+#gallery .gallery_button .gallery_button2 {
+	width: 100%;
+}
+
+
+#gallery .gallery_button .gallery_button3 {
+	width: 100%;
+}
+
+#gallery .left_img img {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	margin-left: 0;
+}
+
+#gallery .left_img img:nth-child(2) {
+	margin-top: 20px;
+}
+
+
+/* colors */
+#colors {
+	padding-top: 59px;
+}
+
+
+.navimg_slider{
+	display: none;
+}
+
+
+
+/* testimonals */
+
+#Testimonials {
+	margin-top: 66px;
+
+}
+
+.myslider_item {
+
+    margin: 0 auto;
+    width: 100%;
+  margin-top: 41px;
+  padding: 52px 22px 53px 34px;
+  }
+  .myslider_item2{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px !important;
+    padding: 52px 22px 23px 34px;
+  }
+
+  .myslider_item3 {
+    width: 100%;
+    margin-top: 41px;
+    padding: 52px 22px 53px 34px;
+    border: 1px solid #d8d8d8;
+  }
+
+.prearrow {
+
+	left: 0;
+
+}
+
+.nextarrow {
+
+	left: 20px;
+}
+
+/* subcribe */
+
+#Subscribe {
+	padding-top: 52px;
+}
+
+.input_email input {
+	width: 100%;
+	padding: 0px 159px 0px 21px;
+
+}
+
+.input_email button {
+	padding: 14px 0px 17px 9px;
+	font-size: 19px;
+	width: 69%;
+}
+
+
+
+/* footer */
+
+.footer_float {
+
+	justify-content: center;
+	gap: 0;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 374px;
+}
+
+.about_h4 {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.Resources_h4 {
+	
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Legals_h4 {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.icon {
+	justify-content: center;
+}
+
+
+}
+
+/* medium */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+/* navbar */
+
+.nav_item{
+	margin-top: 20px;
+}
+
+
+.main_menu ul {
+	gap: 32px;
+	display: flex;
+	align-items: center;
+	margin-top: 26px;
+}
+
+.main_menu .navbar_button {
+
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+/* banner */
+
+#banner .banner_images {
+	width: 100%;
+	top: -23px;
+
+}
+
+#banner h1 {
+	width: 100%;
+	margin-top: 700px;
+}
+
+
+#banner .line {
+	width: 335px;
+
+	margin-top: 47px;
+	margin-bottom: 43px;
+}
+
+
+#banner .text25 {
+	width: 100%;
+}
+
+
+.counter_single_box {
+	width: 50%;
+
+	margin-top: 66px;
+
+	margin-left: 157px;
+}
+
+
+
+/* product */
+
+.lightweight {
+	margin-top: 21px;
+}
+
+
+.product_sign {
+	margin-top: 20px;
+	margin-left: 0;
+}
+
+#product .product_img {
+	width: 100%;
+
+}
+
+
+/* effcency */
+
+#Efficiency {
+	margin-top: 55px;
+}
+
+#Efficiency .Efficiency_img {
+	width: 100%;
+
+}
+
+/* multiple */
+
+#multiple {
+	padding-top: 41px;
+}
+
+#multiple .golf_text h2 {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: var(--ubontu);
+	color: var(--brand-color);
+	margin-top: 20px;
+}
+
+.scooter_img {
+
+	top: -262px;
+	left: 288px;
+	width: 62%;
+}
+
+/* gallery */
+#gallery {
+	margin-top: 67px;
+}
+
+#gallery .galley_img img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#gallery .galley_img {
+	margin-top: 67px;
+}
+
+
+#gallery .left_img img {
+	width: 100%;
+	height: 100%;
+	margin-top: 26px;
+	margin-left: 0;
+}
+
+#gallery .left_img img:nth-child(2) {
+	margin-top: 20px;
+}
+
+
+
+/* colors */
+
+#colors {
+	padding-top: 43px;
+}
+
+#colors .colors_slider {
+	margin-top: 30px;
+
+}
+
+/* testimonals */
+
+.myslider_item {
+	width: 360px;
+
+	border: 0px solid #d8d8d8;
+}
+
+.myslider_item2 {
+	width: 360px;
+
+	border: 0px solid #d8d8d8;
+}
+
+.myslider_item3 {
+	width: 360px;
+
+	border: 0px solid #d8d8d8;
+}
+
+.prearrow {
+
+	left: 260px;
+}
+
+.nextarrow {
+	left: 318px;
+}
+
+
+/* subscribe */
+#Subscribe {
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+
+
+
+/* footer */
+
+.footer_img img {
+	width: 100%;
+}
+
+
+.footer_float {
+
+	margin-top: 384px;
+}
+
+.icon {
+
+	justify-content: center;
+}
+
+ }
+
+
+ 

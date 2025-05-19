@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-03</title>
+
+    <!-- font css -->
+     <link rel="stylesheet" href="./css/all.min.css">
+
+     <!-- aos animation -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- slick css -->
+      <link rel="stylesheet" href="./css/slick.css">
+      
+      <!-- bootsrap -->
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+      />
+      <!-- custoom css -->
+      <link rel="stylesheet" href="./css/style.css" />
+      <!-- responsive -->
+      <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+
+    <!-- navbar -->
+     
+      <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+          <a class="navbar-brand logo" href="#"
+            ><img  data-aos="zoom-in" src="./images/logo.png" alt="banner-img"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse nav_item" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >PRODUCTS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >GALLERY</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+            <div class="navbar_button">
+              <a href="#">SIGN IN</a>
+              <a href="#">SIGN UP</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- navbar -->
+
+    <!-- banner -->
+
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="banner_text">
+              <h1> 
+                  Let's ride
+                  <div id="app"></div>
+                  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+                </h1>
+                <div class="line"></div>
+                <p data-aos="zoom-out-right" class="text25">Simple and sleek design with users in mind.</p>
+              </div>
+            <div class="round">
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <h5 class="button-text">Buy now</h5>
+                </button>
+             
+                <p>Watch our video how it works</p>        
+                
+                <button class="play_button">
+                  <p class="play_buttontext">
+                    <img src="./images/play button.png" alt="">
+
+                  </p>
+
+                  <div class="play_button_circle">
+                    <?xml version="1.0" ?><svg
+                      height="15"
+                      width="15"
+                      viewBox="0 0 48 48"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M-838-2232H562v3600H-838z" fill="none" />
+                      <path d="M16 10v28l22-14z" />
+                      <path d="M0 0h48v48H0z" fill="none" />
+                    </svg>
+                  </div>
+                </button>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="banner_images">
+        <img data-aos="fade-up-right" src="./images/banner_image.png" alt="banner_img">
+
+      </div>
+    </section>
+
+    <!-- banner -->
+
+    <!-- counter -->
+
+    <section id="counter_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2><span class="counter">105</span>lbs</h2>
+              <p>Net Weight</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2><span class="counter">26</span>mph</h2>
+              <p>Top Speed</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2><span class="counter">38</span>miles</h2>
+              <p>Max Range</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2><span class="counter">89</span>nm</h2>
+              <p>Max Torques</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2>
+                <span><span class="counter">22</span>%</span>slope
+              </h2>
+              <p>Hill Climbing</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div data-aos="fade-up" class="counter_single_box counter_item">
+              <h2><span><span class="counter">2</span>x</span></h2>
+              <p>Hydralic Disc Brakes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- counter -->
+
+    <!-- product -->
+
+    <section id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="common_head">
+              <h2 data-aos="flip-down" >Product Information</h2>
+              <p data-aos="flip-down">
+                Our Scooter has following unique design and technology features:
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product_img">
+              <img  data-aos="zoom-out-right" src="./images/image.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="lightweight">
+              <div class="product_sign">
+                <img data-aos="flip-left"  src="./images/Icon.png" alt="" />
+                <p>Lightweight aircraft grade aluminium frame</p>
+              </div>
+              <div class="product_sign">
+                <img data-aos="flip-left"  src="./images/Icon.png" alt="" />
+                <p>Car grade lithium battery</p>
+              </div>
+              <div class="product_sign">
+                <img data-aos="flip-left"  src="./images/Icon.png" alt="" />
+                <p>Self-balanced</p>
+              </div>
+              <div class="product_sign">
+                <img data-aos="flip-left"  src="./images/Icon.png" alt="" />
+                <p>Plug n playe</p>
+              </div>
+              <div class="product_sign">
+                <img data-aos="flip-left" src="./images/Icon.png" alt="" />
+                <p>Quick release adapter</p>
+              </div>
+              <div class="product_sign">
+                <img data-aos="flip-left"  src="./images/Icon.png" alt="" />
+                <p>RFID key card</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product -->
+
+    <!-- Efficiency -->
+
+    <section id="Efficiency">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="common_head">
+              <h2 data-aos="flip-down">High Efficiency Motor</h2>
+              <p data-aos="flip-down" >
+                More torque for powerful riding with 22% maximum hill climbing
+                capability.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="Efficiency_img">
+              <img
+              data-aos="fade-down"
+                src="./images/Efficiency.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Efficiency -->
+
+    <!-- multiple -->
+
+    <section id="multiple">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="common_head">
+              <h2 >Multiple Accessories</h2>
+              <p >
+                There are multiple modes for the scooter for your multiple
+                needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="golf_text">
+              <h2 data-aos="fade-right" >Golf Bag Rock</h2>
+            </div>
+            <div class="multiple_img">
+              <img data-aos="flip-left" src="./images/Icon.png" alt="multiple icon">
+              <p>Material : Aluminium alloy</p>
+            </div>
+            <div class="multiple_img">
+              <img data-aos="flip-left" src="./images/Icon.png" alt="multiple icon">
+              <p>Color : Black</p>
+            </div>
+            <div class="multiple_img">
+              <img data-aos="flip-left"  src="./images/Icon.png" alt="multiple icon">
+              <p>Capacity : 45lbs</p>
+            </div>
+            <div class="multiple_img">
+              <img data-aos="flip-left" src="./images/Icon.png" alt="multiple icon">
+              <p>Ease : Steady & adjustable</p>
+            </div>
+            <div class="scooter">
+              <div class="scooter_img">
+                <img src="./images/shopingImg__2.png" alt="shoping_img">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="side_img">
+                <img data-aos="fade-left"  src="./images/image1.png" alt="accessories">
+                <img  data-aos="fade-right"  src="./images/image2.png" alt="accessories">
+            </div>
+            <div class="shoping_text">
+              <h2 data-aos="fade-right">Shopping Rack</h2>
+            <div class="Shopping_img">
+              <img data-aos="flip-left" src="./images/Icon.png" alt="shoping_img">
+              <p>Material : Aluminium alloy</p>
+            </div>
+            <div class="Shopping_img">
+              <img data-aos="flip-left"  src="./images/Icon.png" alt="shoping_img">
+              <p>Color : Black</p>
+            </div>
+            <div class="Shopping_img">
+              <img data-aos="flip-left"  src="./images/Icon.png" alt="shoping_img">
+              <p>Capacity : 45lbs</p>
+            </div>
+            <div class="Shopping_img">
+              <img data-aos="flip-left"  src="./images/Icon.png" alt="shoping_img">
+              <p>Ease : Quick & adjustable</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="text">
+      <h2 data-aos="zoom-in">More Accessories Coming Soon</h2>
+    </div>
+    </section>
+
+    <!-- multiple -->
+
+    <!-- gallery -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="common_head">
+          <h2 data-aos="flip-down">Gallery</h2>
+          <p data-aos="flip-down">View gallery of our products and make yourself satisfied with our creation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="galley_img">
+          <img  src="./images/scooter.png" alt="scotter" />
+        </div>
+        <div class="gallery_button">
+          <div class="gallery_button1">
+            <h3 data-aos="zoom-in">Battery Images</h3>
+          </div>
+          <div class="gallery_button2">
+            <h3 data-aos="zoom-in">Spare Parts Images</h3>
+          </div>
+          <div class="gallery_button3">
+            <h3 data-aos="zoom-in">Charging Cable Images</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="left_img">
+          <img  src="./images/best.png" alt="best quality" />
+          <img   src="./images/parts.png" alt="left_parts" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- gallery -->
+
+
+    <!-- colors -->
+     
+    <section id="colors">
+      <div class="container">
+        <div class="row">
+    <div class="col-lg-12">
+      <div class="common_head">
+        <h2 data-aos="flip-down" >Colors</h2>
+        <p data-aos="flip-down">Checkout our products colors.</p>
+      </div>
+    </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="colors_slider">
+              <div   class="slider-for slider_img">
+                <div   class="for_img"><img src="./images/singelSlideImage1.png" alt="slider_img"></div>
+                <div  class="for_img"><img src="./images/singelSlideImage2.png" alt="slider_img"></div>
+                <div  class="for_img"><img src="./images/singelSlideImage3.png" alt="slider_img"></div>
+                <div  class="for_img"><img src="./images/singelSlideImage4.png" alt="slider_img"></div>
+              </div>
+              <div  class="slider-nav navimg_slider">
+                <div class="nav_img"><img src="./images/slidenavItem1.png" alt="nav_img"></div>
+                <div  class="nav_img"><img src="./images/slidenavItem2.png" alt="nav_img"></div>
+                <div  class="nav_img"><img src="./images/slidenavItem3.png" alt="nav_img"></div>
+                <div  class="nav_img"><img src="./images/slidenavItem4.png" alt="nav_img"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- colors -->
+
+    <!-- Testimonials -->
+
+    <section id="Testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="common_head">
+              <h2 data-aos="flip-down">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="myslider">
+              <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp1.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Serhiy Hipskyy</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item2">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp2.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Justus Menke</h2>
+                <p>CEO Eronaman</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>  
+             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp3.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Britain Eriksen</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+    
+            <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp1.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Serhiy Hipskyy</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item2">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp2.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Justus Menke</h2>
+                <p>CEO Eronaman</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>  
+             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp3.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Britain Eriksen</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp1.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Serhiy Hipskyy</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item2">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>
+             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp2.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Justus Menke</h2>
+                <p>CEO Eronaman</p>
+              </div>
+             </div>
+              </div>
+            </div>
+            <div>
+              <div class="myslider_item">
+                <ul class="ratingIcons">
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                </ul>  
+             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+             <div class="review_profile">
+              <div class="person_profile">
+                <img  src="./images/sliderp3.png" alt="person1">
+              </div>
+              <div class="person_text">
+                <h2>Britain Eriksen</h2>
+                <p>CEO Universal</p>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <!-- Subscribe -->
+
+    <section id="Subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="common_head">
+              <h2 data-aos="flip-down">Subscribe To Newsletter</h2>
+              <p data-aos="flip-down">Subscribe to our newsletter to get amazing offers in future.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="input_email">
+              <input type="text" placeholder="enter your email"> 
+            <button type="button" class="btn btn-success">Get Start</button>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div  class="footer_float">
+              <ul class="about_ul">
+                <h4 data-aos="flip-up"  class="about_h4">About</h4>
+                <li  class="About_li"><a href="#">Company</a></li>
+                <li  class="About_li"><a href="#">Teams</a></li>
+                <li  class="About_li"><a href="#">Profile</a></li>
+                <li  class="About_li"><a href="#">Careers</a></li>
+              </ul>
+              <ul class="Resources_ul">
+                <h4 data-aos="flip-up" class="Resources_h4">Resources</h4>
+                <li  class="Resources_li"><a href="#">Contact</a></li>
+                <li  class="Resources_li"><a href="#">Application</a></li>
+                <li  class="Resources_li"><a href="#">FQA Features</a></li>
+              </ul>
+              <ul class="Legals_ul">
+                <h4 data-aos="flip-up"  class="Legals_h4">Legals</h4>
+                <li  class="Legals_li"><a href="#">Copyright Privacy</a></li>
+                <li  class="Legals_li"><a href="#">Policy Disclaimer </a></li>
+                <li  class="Legals_li"><a href="#">Terms</a></li>
+              </ul>
+            </div>
+            <div class="icon">
+              <div class="fb">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+              <div class="x">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="instra">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer_text">
+              <p data-aos="fade-up"
+           >© Copyright 2021. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_img">
+        <img src="images/footerimg.png" alt="footerimg">
+      </div>
+    </footer>
+
+    <!-- footer -->
+
+    <!-- js -->
+
+<!-- jquery -->
+   <script src="./js/jquery-1.12.4.min.js"></script>
+<!-- slick -->
+ <script src="./js/slick.min.js"></script>
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- counter js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="./js/jquery.counterup.min.js"></script>
+    <!-- bootsrap cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script> 
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
